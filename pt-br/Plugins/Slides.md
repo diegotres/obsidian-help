@@ -1,25 +1,25 @@
-Slides lets you create presentations from your notes. To start a presentation:
+O Slides permite que você crie apresentações a partir de suas anotações. Para iniciar uma apresentação:
 
-**File menu:**
+**Menu de arquivo:**
 
-- Right-click the tab of a note and click **Start presentation**.
+- Clique com o botão direito do mouse na guia de uma nota e clique em **Iniciar apresentação**.
 
-**Command palette:**
+**Paleta de comandos:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
-2. Search for the **Start presentation** command.
-3. Press `Enter` with the command selected to start a presentation using the active note.
+1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[Paleta de comandos]].
+2. Procure o comando **Iniciar apresentação**.
+3. Pressione `Enter` com o comando selecionado para iniciar uma apresentação usando a nota ativa.
 
-To navigate between slides, click the left and right arrows in the bottom-right corner, or press the left and right arrow keys on your keyboard.
+Para navegar entre os slides, clique nas setas para a esquerda e para a direita no canto inferior direito ou pressione as teclas de seta para a esquerda e para a direita no teclado.
 
-You can also advance to the next slide by pressing Spacebar.
+Você também pode avançar para o próximo slide pressionando a barra de espaço.
 
-To stop the presentation, press `Escape` or click the cross in the upper-right corner of the presentation.
+Para interromper a apresentação, pressione 'Escape' ou clique na cruz no canto superior direito da apresentação.
 
-> [!tip]
-> Try the [[Slides demo]] to see Slides in action.
+> [!tip] Dica
+> Experimente o [[Slides demo]] para ver os slides em ação.
 
-You can use any valid Markdown file as a presentation. To separate slides, enter `---` at the start of a line surrounded by newlines.
+Você pode usar qualquer arquivo Markdown válido como apresentação. Para separar slides, digite `---` no início de uma linha entre linhas novas.
 
 ```md
 # Presentations using Slides

@@ -1,15 +1,15 @@
-The Quick switcher lets you search and open notes using only your keyboard.
+O seletor rápido permite pesquisar e abrir notas usando apenas o teclado.
 
-To open a note using the Quick switcher:
+Para abrir uma nota usando o seletor rápido:
 
-1. Press `Ctrl+O` (or `Cmd+O` on macOS) to open the Quick switcher.
-2. Type to search for a note by name or alias.
-3. Navigate to the note using the arrow keys.
-4. Press `Enter` to open the selected note.
+1. Pressione `Ctrl+O` (ou `Cmd+O` no macOS) para abrir o seletor rápido.
+2. Digite para procurar uma nota por nome ou alias.
+3. Navegue até a nota usando as teclas de seta.
+4. Pressione `Enter` para abrir a nota selecionada.
 
-If the text doesn't match any notes, you can press `Enter` to create a note with that name. Even if the text matches one or more similar notes, you can still create a note with the exact name by pressing `Shift+Enter`.
+Se o texto não corresponder a nenhuma nota, você pode pressionar `Enter` para criar uma nota com esse nome. Mesmo que o texto corresponda a uma ou mais notas semelhantes, você ainda pode criar uma nota com o nome exato pressionando `Shift+Enter`.
 
-You can open the selected note in a new pane by pressing `Ctrl+Enter` (or `Cmd+Enter` on macOS).
+Você pode abrir a nota selecionada em um novo painel pressionando `Ctrl+Enter` (ou `Cmd+Enter` no macOS).
 
-> [!tip] Toggle between two notes
-> If the search term is empty, the Quick switcher shows the most recent notes. Toggle between two notes by opening the Quick switcher, pressing the `Down` arrow, and then pressing `Enter`.
+> [!tip] Alternar entre duas notas
+> Se o termo de pesquisa estiver vazio, o seletor rápido mostra as notas mais recentes. Alterne entre duas notas abrindo o seletor rápido, pressionando a seta `Para baixo` e, em seguida, pressionando `Enter`.

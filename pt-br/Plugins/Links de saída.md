@@ -1,15 +1,14 @@
-The Outgoing links plugin shows the links from the active note at a glance, as well as potential links to be made. It's similar to the [[Backlinks]] plugin, which instead shows you _incoming_ links to the active note.
+O plug-in de links de saída mostra rapidamente os links da nota ativa, bem como possíveis links a serem criados. É semelhante ao plug-in [[Backlinks]], que, em vez disso, mostra links _recebidos_ para a nota ativa.
 
-The Outgoing links pane (link with right arrow icon) is available in the right sidebar and contains the following sections:
+O painel Links de saída (link com ícone de seta para a direita) está disponível na barra lateral direita e contém as seguintes seções:
 
-- **Links** lists all links in the active note. Click a link to open the linked note.
-- **Unlinked mentions** lists any text in the active note that matches the name or [[Apelidos|alias]] of another note in your vault. Unlinked mentions helps you discover links you aren't aware of yet.
+- **Links** lista todos os links na nota ativa. Clique em um link para abrir a nota vinculada.
+- **Menções não vinculadas** lista qualquer texto na nota ativa que corresponda ao nome ou [[Apelidos|alias]] de outra nota em seu cofre. As menções sem links ajudam a descobrir links que você ainda não conhece.
 
-To create a link from an unlinked mention, click the button with the note's name.
+Para criar um link a partir de uma menção não vinculada, clique no botão com o nome da nota.
 
-> [!tip]
-> Unlinked mentions can refer to different notes with the same name. To show the full path of the note, hover over the button with the note's name.
+> [!tip] Dica
+> Menções não vinculadas podem se referir a diferentes notas com o mesmo nome. Para mostrar o caminho completo da nota, passe o mouse sobre o botão com o nome da nota.
 
-> [!note] Code blocks
-> While you can create a link from an unlinked mention inside a code block, due to the nature of code blocks, links don't show up under the Links section.
-
+> [!note] Blocos de código
+> Embora você possa criar um link a partir de uma menção não vinculada dentro de um bloco de código, devido à natureza dos blocos de código, os links não aparecem na seção Links.

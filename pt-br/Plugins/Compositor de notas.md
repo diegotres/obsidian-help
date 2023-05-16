@@ -1,66 +1,66 @@
-Note composer lets you merge two notes or extract part of a note into a new note.
+O compositor de notas permite mesclar duas notas ou extrair parte de uma nota em uma nova nota.
 
-## Merge notes
+## Mesclar notas
 
-Merging notes adds a note to another and removes the first one. Note composer updates all links to reference the merged note.
+Mesclar notas adiciona uma nota a outra e remove a primeira. O compositor de notas atualiza todos os links para fazer referência à nota mesclada.
 
-When you select the note to merge into, you can choose between the following methods:
+Ao selecionar a nota para mesclar, você pode escolher entre os seguintes métodos:
 
-- `Enter`: Adds the source note at the _end_ to the destination note.
-- `Shift+Enter`: Adds the source note at the _start_ of the destination note.
-- `Ctrl+Enter` (or `Cmd+Enter` on macOS): Creates a new note with the content of the source note.
+- `Enter`: Adiciona a nota de origem no _end_ à nota de destino.
+- `Shift+Enter`: Adiciona a nota de origem no _início_ da nota de destino.
+- `Ctrl+Enter` (ou `Cmd+Enter` no macOS): Cria uma nova nota com o conteúdo da nota de origem.
 
-To merge the active note with another note in your vault:
+Para mesclar a nota ativa com outra nota em seu cofre:
 
-**File explorer**
+**Explorador de arquivos**
 
-1. In the File explorer, right-click the note you want to merge.
-2. Click **Merge entire file with...**.
-3. Select the note you want to merge into.
-4. Click **Merge** to confirm.
+1. No explorador de arquivos, clique com o botão direito do mouse na nota que deseja mesclar.
+2. Clique em **Mesclar arquivo inteiro com...**.
+3. Selecione a nota que deseja mesclar.
+4. Clique em **Mesclar** para confirmar.
 
-**Command palette**
+**Paleta de comandos**
 
-1. Open the [[Paleta de comandos]].
-2. Select **Note composer: Merge current file with another file...**.
-3. Select the note you want to merge into.
-4. Click **Merge** to confirm.
+1. Abra a [[Paleta de comandos]].
+2. Selecione **Note composer: Mesclar arquivo atual com outro arquivo...**.
+3. Selecione a nota que deseja mesclar.
+4. Clique em **Mesclar** para confirmar.
 
-> [!tip]
-> By default, Note composer asks you to confirm when merging notes. If you disable the confirmation, and you merge a note by mistake, you can still recover it with the [[Recuperação de arquivos]] plugin.
+> [!tip] Dica
+> Por padrão, o compositor de notas pede que você confirme ao mesclar notas. Se você desativar a confirmação e mesclar uma nota por engano, ainda poderá recuperá-la com o plugin [[Recuperação de arquivos]].
 
-## Extract note
+## Extrair nota
 
-When you select the note to extract the selection into, you can choose between the following methods:
+Ao selecionar a nota para extrair a seleção, você pode escolher entre os seguintes métodos:
 
-- `Enter`: Adds the selected text at the _end_ to the destination note.
-- `Shift+Enter`: Adds the selected text at the _start_ of the destination note.
-- `Ctrl+Enter` (or `Cmd+Enter` on macOS): Creates a new note with the selected text.
+- `Enter`: Adiciona o texto selecionado no _end_ à nota de destino.
+- `Shift+Enter`: Adiciona o texto selecionado no _início_ da nota de destino.
+- `Ctrl+Enter` (ou `Cmd+Enter` no macOS): Cria uma nova nota com o texto selecionado.
 
-To extract text into a new note:
+Para extrair texto em uma nova nota:
 
 **Editor**
 
-1. While in the **Editing view**, select the text you want to extract.
-2. Right-click the selected text.
-3. Click **Extract current selection...**.
-4. Select the note you want to extract into.
+1. Na **Visualização de edição**, selecione o texto que deseja extrair.
+2. Clique com o botão direito do mouse no texto selecionado.
+3. Clique em **Extrair seleção atual...**.
+4. Selecione a nota para a qual deseja extrair.
 
-**Command palette**
+**Paleta de comandos**
 
-1. While in the **Editing view**, select the text you want to extract.
-2. Open the [[Paleta de comandos]].
-3. Select **Note composer: Extract current selection...**.
-4. Select the note you want to extract into.
+1. Na **Visualização de edição**, selecione o texto que deseja extrair.
+2. Abra a [[Paleta de comandos]].
+3. Selecione **Note composer: Extract current selection...**.
+4. Selecione a nota para a qual deseja extrair.
 
-> [!tip]
-> By default, Note composer replaces the extracted text with a link to the destination note. Under settings, you can also change to instead [[Incorporando arquivos|embed]] the destination note, or to leave nothing behind.
+> [!tip] Dica
+> Por padrão, o compositor de notas substitui o texto extraído por um link para a nota de destino. Nas configurações, você também pode alterar para [[Incorporando arquivos|embed]] a nota de destino ou não deixar nada para trás.
 
-## Template file
+## Arquivo de modelo
 
-By configuring a template, you can customize the content before you add it to the new note. To use a template, enter a **Template file location** in the plugin settings.
+Ao configurar um modelo, você pode personalizar o conteúdo antes de adicioná-lo à nova nota. Para usar um modelo, insira um **localização do arquivo de modelo** nas configurações do plug-in.
 
-The template can contain the following variables:
+O modelo pode conter as seguintes variáveis:
 
 | Variable          | Description                                                                                                                                              |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|

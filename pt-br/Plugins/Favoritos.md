@@ -2,112 +2,112 @@
 alias: Plugins/Starred
 ---
 
-Bookmarks let you quickly access items that you use often. A bookmark is a "shortcut" that immediately takes you the bookmarked item.
+Os marcadores permitem acessar rapidamente os itens que você usa com frequência. Um marcador é um "atalho" que leva você imediatamente ao item marcado.
 
-You can add bookmarks to the following:
+Você pode adicionar marcadores ao seguinte:
 
-- Files
-- Folders
-- Graphs
-- Searches
-- Headings
-- Blocks
+- Arquivos
+- Pastas
+- Gráficos
+- Pesquisas
+- Cabeçalhos
+- Blocos
 
-Open a bookmark by selecting it in the Bookmarks tab.
+Abra um marcador selecionando-o na guia Marcadores.
 
-You can reorder bookmarks by selecting and dragging them.
+Você pode reorganizar os marcadores selecionando-os e arrastando-os.
 
-You can bookmark items and organize them into _bookmark groups_ to find them easier. You can expand and collapse bookmark groups to show or hide the bookmarks in them.
+Você pode marcar itens e organizá-los em _grupos de favoritos_ para encontrá-los mais facilmente. Você pode expandir e recolher grupos de favoritos para mostrar ou ocultar os favoritos neles.
 
-> [!todo]- Show bookmarks
-> You can find your bookmarked items by clicking **Bookmarks** (bookmark icon) in the left sidebar.
+> [!todo]- Mostrar favoritos
+> Você pode encontrar seus itens favoritos clicando em **Favoritos** (ícone de favoritos) na barra lateral esquerda.
 >
-> Or, open the Bookmarks tab by running **Bookmarks: Show bookmarks** from the [[Paleta de comandos]].
+> Ou, abra a aba Marcadores executando **Marcadores: Mostrar marcadores** da [[Paleta de comandos]].
 
-## Add a bookmark
+## Adicione um marcador
 
-Adding a bookmark opens the **Add bookmark** dialog where you can set an optional title and assign it to a bookmark group.
+Adicionar um marcador abre a caixa de diálogo **Adicionar marcador**, onde você pode definir um título opcional e atribuí-lo a um grupo de marcadores.
 
-When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instead lets you edit the bookmark.
+Quando você marca um item, **Adicionar marcador** se torna **Editar marcador** e permite que você edite o marcador.
 
-> [!todo]- Bookmark a file
+> [!todo]- Marcar um arquivo
 >
-> **Bookmarks**:
+> **Marcadores**:
 >
-> - Select **Bookmark the active tab** (bookmark with plus icon) at the top of the Bookmarks tab.
+> - Selecione **Marcar a guia ativa** (marcador com ícone de mais) na parte superior da guia Marcadores.
 >
-> **File explorer**:
+> **Explorador de arquivos**:
 >
-> - Right-click a file in [[Explorador de arquivos]] and click **Bookmark**.
+> - Clique com o botão direito em um arquivo em [[Explorador de arquivos]] e clique em **Bookmark**.
 >
-> **Command palette**:
+> **Paleta de comandos**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
-> 2. Search for the **Bookmark** command.
-> 3. Press `Enter` with the command selected to add a bookmark.
+> 1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[Paleta de comandos]].
+> 2. Pesquise o comando **Bookmark**.
+> 3. Pressione `Enter` com o comando selecionado para adicionar um marcador.
 
-> [!todo]- Bookmark a folder
+> [!todo]- Marcar uma pasta
 >
-> **File explorer**:
+> **Explorador de arquivos**:
 >
-> - Right-click a folder in [[Explorador de arquivos]] and click **Bookmark**.
+> - Clique com o botão direito em uma pasta em [[Explorador de arquivos]] e clique em **Bookmark**.
 
-> [!todo]- Bookmark a search term
+> [!todo]- Marcar um termo de pesquisa
 >
-> **Search**:
+> **Pesquisar**:
 >
-> 1. Enter a [[Busca#Search terms|search term]].
-> 2. Under the search field, select the three dots icon next to the number of results.
-> 3. Select **Bookmark**.
+> 1. Digite um [[Busca#Pesquisar termos|termo de busca]].
+> 2. No campo de pesquisa, selecione o ícone de três pontos ao lado do número de resultados.
+> 3. Selecione **Marcador**.
 
-> [!todo]- Bookmark a graph
-> To bookmark a graph, right-click the tab with the graph view and select **Bookmark**.
+> [!todo]- Marcar um gráfico
+> Para marcar um gráfico, clique com o botão direito do mouse na guia com a visualização do gráfico e selecione **Marcador**.
 >
-> You can't bookmark local graphs.
+> Você não pode marcar gráficos locais.
 
-> [!todo]- Bookmark a heading
-> To bookmark a heading, right-click the heading and select **Bookmark this heading**.
+> [!todo]- Marcar um cabeçalho
+> Para marcar um cabeçalho, clique com o botão direito do mouse no cabeçalho e selecione **Marcar este cabeçalho**.
 >
-> **Command palette**:
+> **Paleta de comandos**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
-> 2. Select the **Bookmark heading under cursor** command.
+> 1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[Paleta de comandos]].
+> 2. Selecione o comando **Cabeçalho do marcador sob o cursor**.
 
-> [!todo]- Bookmark a block
+> [!todo]- Marcar um bloco
 >
-> **Command palette**:
+> **Paleta de comandos**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
-> 2. Select the **Bookmark block under cursor** command.
+> 1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[Paleta de comandos]].
+> 2. Selecione o comando **Bloco de marcadores sob o cursor**.
 
-## Remove a bookmark
+## Remover um marcador
 
-In the Bookmarks tab, right-click the bookmark and select **Remove**.
+Na guia Marcadores, clique com o botão direito do mouse no marcador e selecione **Remover**.
 
-You can also remove a bookmark from the **Edit bookmark** dialog.
+Você também pode remover um marcador na caixa de diálogo **Editar marcador**.
 
-## Add a bookmark group
+## Adicionar um grupo de favoritos
 
-**Bookmarks**:
+**Favoritos**:
 
-- Select **New bookmark group** (folder with plus icon) at the top of the Bookmarks tab.
+- Selecione **Novo grupo de favoritos** (pasta com ícone de mais) na parte superior da guia Marcadores.
 
-To move a bookmark to another group, select and drag it to the group you want to move it to.
+Para mover um marcador para outro grupo, selecione e arraste-o para o grupo para o qual deseja movê-lo.
 
-## Remove a bookmark group
+## Remover um grupo de favoritos
 
-To remove a bookmark group and all bookmarks in it, right-click the bookmark group and select **Remove**.
+Para remover um grupo de marcadores e todos os marcadores contidos nele, clique com o botão direito do mouse no grupo de marcadores e selecione **Remover**.
 
-## Bookmark multiple files
+## Marque vários arquivos como favoritos
 
-You can add multiple bookmarks at the same time.
+Você pode adicionar vários marcadores ao mesmo tempo.
 
-**File explorer**:
+**Explorador de arquivos**:
 
-1. Select multiple files by pressing `Alt` and selecting each file, or press `Shift` to select a range of files.
-2. Right-click one of the selected files and then select **Bookmark**.
+1. Selecione vários arquivos pressionando `Alt` e selecionando cada arquivo, ou pressione `Shift` para selecionar um intervalo de arquivos.
+2. Clique com o botão direito do mouse em um dos arquivos selecionados e selecione **Marcador**.
 
-**Tab group options**:
+**Opções do grupo de guias**:
 
-1. In the upper-right corner of a tab group, select the down arrow.
-2. Select **Bookmark 3 tabs**, where 3 is the number of tabs in the tab group.
+1. No canto superior direito de um grupo de guias, selecione a seta para baixo.
+2. Selecione **Marcar 3 guias**, onde 3 é o número de guias no grupo de guias.

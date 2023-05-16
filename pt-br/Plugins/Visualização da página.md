@@ -1,8 +1,8 @@
-Page preview lets you preview a page when you hover the cursor over an internal link, without needing to navigate to that page.
+A visualização da página permite visualizar uma página ao passar o cursor sobre um link interno, sem a necessidade de navegar até essa página.
 
-In addition to editor, you can preview notes in several other parts of Obsidian, such as [[Explorador de arquivos]], [[Busca]], and [[Backlinks]].
+Além do editor, você pode visualizar notas em várias outras partes do Obsidian, como [[Explorador de arquivos]], [[Busca]] e [[Backlinks]].
 
-To preview a page while in Editing view, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link.
+Para visualizar uma página na visualização de edição, pressione `Ctrl` (ou `Cmd` no macOS) enquanto passa o cursor sobre o link.
 
-> [!tip]
-> In the plugin settings, you can configure Page preview to only open the preview automatically, or only when you press `Ctrl` (or `Cmd` on macOS).
+> [!tip] Dica
+> Nas configurações do plug-in, você pode configurar a visualização da página para abrir apenas a visualização automaticamente ou apenas quando você pressiona `Ctrl` (ou `Cmd` no macOS).

@@ -1,5 +1,5 @@
-The Outline plugin lists the headings in the active note.
+O plug-in Outline lista os títulos na nota ativa.
 
-To navigate to that section in the note, click on the heading in the outline.
+Para navegar para essa seção na nota, clique no cabeçalho do esboço.
 
-To rearrange sections in the note, click and drag the heading within the outline.
+Para reorganizar as seções na nota, clique e arraste o título dentro do contorno.

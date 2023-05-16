@@ -1,80 +1,80 @@
-The Graph view lets you visualize the relationships between the notes in your vault.
+A exibição Gráfico permite visualizar as relações entre as notas em seu cofre.
 
-To open the Graph view, click **Open graph view** in the [[Fita]].
+Para abrir a visualização de gráfico, clique em **Abrir visualização de gráfico** em [[Fita]].
 
-- Circles represent notes, or _nodes_.
-- Lines represents [[Links internos]] between two nodes.
+- Os círculos representam notas, ou _nós_.
+- Linhas representam [[Links internos]] entre dois nós.
 
-The more nodes that reference a given node, the bigger it gets.
+Quanto mais nós referenciam um determinado nó, maior ele fica.
 
-To interact with notes in the graph:
+Para interagir com notas no gráfico:
 
-- Hover over each circle to highlight that note's connections.
-- Click a note in the graph to open that note.
-- Right-click a note to open a context menu with the actions available for that note.
+- Passe o mouse sobre cada círculo para destacar as conexões dessa nota.
+- Clique em uma nota no gráfico para abri-la.
+- Clique com o botão direito do mouse em uma nota para abrir um menu de contexto com as ações disponíveis para essa nota.
 
-To navigate around the graph:
+Para navegar pelo gráfico:
 
-- Zoom in and out using the scroll wheel on your mouse, or using the `+` and `-` keys.
-- Move the graph around by dragging it with your mouse cursor, or using the arrow keys.
+- Aumente e diminua o zoom usando a roda de rolagem do mouse ou usando as teclas `+` e `-`.
+- Mova o gráfico arrastando-o com o cursor do mouse ou usando as teclas de seta.
 
-You can hold Shift while using the keyboard to speed up the movements.
+Você pode segurar Shift enquanto usa o teclado para acelerar os movimentos.
 
-## Settings
+## Configurações
 
-To open the graph settings, click the cog icon in the upper-left corner of the graph view.
+Para abrir as configurações do gráfico, clique no ícone de engrenagem no canto superior esquerdo da visualização do gráfico.
 
-Click **Restore default settings** in the upper-right corner of the settings box to reset any changes you make.
+Clique em **Restaurar configurações padrão** no canto superior direito da caixa de configurações para redefinir as alterações feitas.
 
-### Filters
+### Filtros
 
-This section controls what nodes to show in the graph.
+Esta seção controla quais nós mostrar no gráfico.
 
-- **Search files** lets you filter notes based on a search query. To learn about how you can write more advanced search queries, refer to [[Busca]].
-- **Tags** toggles whether to show tags in the graph.
-- **Attachments** toggles whether to show attachments in the graph.
-- **Existing files only** toggles whether to show notes that exists in your vault. Since a note doesn't need to exist to link to it, this can help reduce limit your graph to notes that you actually have in your vault.
-- **Orphans** toggles whether to show notes without any links.
+- **Pesquisar arquivos** permite filtrar notas com base em uma consulta de pesquisa. Para saber como você pode escrever consultas de pesquisa mais avançadas, consulte [[Busca]].
+- **Tags** alterna se as tags devem ser exibidas no gráfico.
+- **Anexos** alterna se os anexos devem ser exibidos no gráfico.
+- **Apenas arquivos existentes** alterna entre mostrar notas que existem em seu cofre. Como uma nota não precisa existir para vincular a ela, isso pode ajudar a reduzir o limite de seu gráfico para notas que você realmente tem em seu cofre.
+- **Órfãos** alterna entre mostrar notas sem links.
 
-### Groups
+### Grupos
 
-Create groups of notes to distinguish them from each other using color.
+Crie grupos de notas para distingui-las umas das outras usando cores.
 
-To create a new group:
+Para criar um novo grupo:
 
-1. Click **New group**.
-2. In the search box, type a search query for the notes you want to add to the group.
-3. Click the colored circle to give the group a color.
+1. Clique em **Novo grupo**.
+2. Na caixa de pesquisa, digite uma consulta de pesquisa para as notas que deseja adicionar ao grupo.
+3. Clique no círculo colorido para dar uma cor ao grupo.
 
-To learn about how you can write more advanced search queries, refer to [[Busca]].
+Para saber como você pode escrever consultas de pesquisa mais avançadas, consulte [[Busca]].
 
-### Display
+### Mostrar
 
-This section controls how to visualize nodes and links in the graph.
+Esta seção controla como visualizar nós e links no gráfico.
 
-- **Arrows** toggles whether to show the direction of each link.
-- **Text fade threshold** controls the text transparency for the name of each note.
-- **Node size** controls the size of the circle representing each note.
-- **Link thickness** controls the line width for each link.
-- **Animate** starts a [[#Start a time-lapse animation|time-lapse animation]].
+- **Setas** alterna entre mostrar a direção de cada link.
+- **Text fade threshold** controla a transparência do texto para o nome de cada nota.
+- **Tamanho do nó** controla o tamanho do círculo que representa cada nota.
+- **Espessura do link** controla a largura da linha para cada link.
+- **Animate** inicia uma [[#Iniciar uma animação de lapso de tempo|animação de lapso de tempo]].
 
-### Forces
+### Forças
 
-This section controls the forces that act on each node in the graph.
+Esta seção controla as forças que agem em cada nó do gráfico.
 
-- **Center force** controls how compact the graph is. A higher value creates a more circular graph.
-- **Repel force** controls how much a node pushes other nodes away from it.
-- **Link force** controls the pull on each link. If the link was a rubber band, the link force controls how tight or loose the band is.
-- **Link distance** controls the length of the lines between each note.
+- **Força central** controla a compactação do gráfico. Um valor mais alto cria um gráfico mais circular.
+- **Força de repulsão** controla o quanto um nó empurra outros nós para longe dele.
+- **Link force** controla a tração em cada link. Se o elo for um elástico, a força do elo controlará o quanto o elo está apertado ou solto.
+- **Link distance** controla o comprimento das linhas entre cada nota.
 
-## Start a time-lapse animation
+## Iniciar uma animação de lapso de tempo
 
-Notes and attachments appear in chronological order based on their creation time.
+Notas e anexos aparecem em ordem cronológica com base no horário de criação.
 
 ![[Pasted image 10.png]]
 
-## Local Graph
+## Gráfico local
 
-To open a local Graph view, use the **Open local graph** command. While the Graph view shows all notes in your vault, a local Graph view shows you notes connected to the active note.
+Para abrir uma visualização de gráfico local, use o comando **Abrir gráfico local**. Enquanto a exibição de gráfico mostra todas as notas em seu cofre, uma exibição de gráfico local mostra as notas conectadas à nota ativa.
 
-The local Graph view can use all of the [[#Settings]] available to the global Graph view. Additionally, you can change the depth of the local graph. Each level of depth will show notes connected to the notes revealed at the previous depth. To control local Graph depth, use the slider at the top of the local graph Settings panel.
+A exibição de gráfico local pode usar todas as [[#Configurações]] disponíveis para a exibição de gráfico global. Além disso, você pode alterar a profundidade do gráfico local. Cada nível de profundidade mostrará notas conectadas às notas reveladas na profundidade anterior. Para controlar a profundidade do gráfico local, use o controle deslizante na parte superior do painel Configurações do gráfico local.

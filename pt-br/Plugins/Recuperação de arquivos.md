@@ -1,27 +1,27 @@
-File recovery helps you recover your work in the case of unintentional data loss, by regularly saving snapshots of your notes.
+A recuperação de arquivos ajuda você a recuperar seu trabalho no caso de perda não intencional de dados, salvando regularmente instantâneos de suas anotações.
 
-To avoid taking up too much space, Obsidian keeps snapshots for a certain number of days before deleting them.
+Para evitar ocupar muito espaço, o Obsidian mantém os instantâneos por um determinado número de dias antes de excluí-los.
 
-> [!note]
-> By default, snapshots are saved a minimum of 5 minutes from each other, and kept for 7 days. You can configure both intervals under **Settings → File recovery**.
+> [!note] Nota
+> Por padrão, os instantâneos são salvos com no mínimo 5 minutos de intervalo e mantidos por 7 dias. Você pode configurar ambos os intervalos em **Configurações → Recuperação de arquivo**.
 
-Snapshots are kept in the [[Como o Obsidian armazena dados#System directory|system directory]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.
+Os instantâneos são mantidos em [[Como o Obsidian armazena dados#Diretório do sistema|diretório do sistema]], fora do cofre, para contabilizar a perda de dados relacionada ao cofre. Isso significa que os instantâneos são armazenados com o caminho absoluto para a nota. Se você moveu seu cofre recentemente, pode ser necessário movê-lo de volta para o local onde estava quando o instantâneo foi tirado.
 
-## Recover a snapshot
+## Recuperar um instantâneo
 
-1. Open **Settings**.
-2. In the sidebar, click **File recovery** under **Plugin options**.
-3. Next to **Snapshots**, click **View**.
-4. In the upper-right text box, search for the file you want to recover, and then press Enter.
-5. Select the snapshot you want to recover.
-6. Click **Copy to clipboard** to copy the snapshot.
-7. Paste the snapshot in the original note, or in a new note if you want to compare them.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Recuperação de arquivo** em **Opções de plug-in**.
+3. Ao lado de **Snapshots**, clique em **View**.
+4. Na caixa de texto superior direita, procure o arquivo que deseja recuperar e pressione Enter.
+5. Selecione o instantâneo que deseja recuperar.
+6. Clique em **Copy to clipboard** para copiar o instantâneo.
+7. Cole o instantâneo na nota original ou em uma nova nota se quiser compará-las.
 
-## Clear snapshot history
+## Limpar histórico de instantâneos
 
-**Caution:** Clearing the snapshot history irreversibly deletes all snapshots in your vault.
+**Cuidado:** limpar o histórico de instantâneos exclui irreversivelmente todos os instantâneos do seu cofre.
 
-1. Open **Settings**.
-2. In the sidebar, click **File recovery** under **Plugin options**.
-3. Next to **Clear history**, click **Clear**.
-4. Confirm that you want to delete all snapshots, by clicking **Clear**.
+1. Abra **Configurações**.
+2. Na barra lateral, clique em **Recuperação de arquivo** em **Opções de plug-in**.
+3. Ao lado de **Limpar histórico**, clique em **Limpar**.
+4. Confirme que deseja excluir todos os instantâneos clicando em **Limpar**.

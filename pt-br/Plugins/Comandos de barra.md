@@ -1,13 +1,13 @@
-Slash commands allow you to perform commands from inside the editor by typing a forward slash (`/`) at the beginning of a line or after any blank space.
+Os comandos de barra permitem que você execute comandos de dentro do editor digitando uma barra (`/`) no início de uma linha ou após qualquer espaço em branco.
 
-To run a command using Slash commands:
+Para executar um comando usando comandos Slash:
 
-1. In the editor, type a forward slash (`/`).
-2. Enter the name of the command you want to run to search the list of available commands.
-3. Navigate to the command using the arrow keys.
-4. Press Enter.
+1. No editor, digite uma barra (`/`).
+2. Insira o nome do comando que deseja executar para pesquisar a lista de comandos disponíveis.
+3. Navegue até o comando usando as teclas de seta.
+4. Pressione Entrar.
 
-To exit the Slash command search without invoking a command, press `Esc` or the `Space` key.
+Para sair da pesquisa de comando Slash sem invocar um comando, pressione `Esc` ou a tecla `Espaço`.
 
-> [!TIP] Fuzzy matching
-> Like the [[Paleta de comandos]], Slash commands supports fuzzy matching which lets you search commands even if you don't know their exact names. For example, type "scf" to find the **Save current file** command.
+> [!tip] Correspondência difusa
+> Como a [[Paleta de comandos]], os comandos Slash suportam correspondência difusa que permite pesquisar comandos mesmo que você não saiba seus nomes exatos. Por exemplo, digite "scf" para localizar o comando **Salvar arquivo atual**.

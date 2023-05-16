@@ -1,22 +1,22 @@
-You can use Templates to insert pre-defined snippets of text into your active note.
+Você pode usar modelos para inserir trechos de texto predefinidos em sua nota ativa.
 
-## Set your template folder
+## Defina sua pasta de modelo
 
-1. In the bottom-left corner, click **Settings** (cog icon).
-2. Under **Core plugins > Templates > Template folder location**, enter the folder containing your templates.
+1. No canto inferior esquerdo, clique em **Configurações** (ícone de engrenagem).
+2. Em **Plugins principais > Modelos > Localização da pasta de modelos**, insira a pasta que contém seus modelos.
 
-## Insert a template into the active note
+## Insira um modelo na nota ativa
 
-**Important:**  To insert a template, you need to first [[#Set your template folder]].
+**Importante:** Para inserir um modelo, você precisa primeiro [[#Set your template folder]].
 
-1. In the ribbon, click **Insert template**.
-2. Select the template to insert at the cursor position in the active note.
+1. Na faixa de opções, clique em **Inserir modelo**.
+2. Selecione o modelo a ser inserido na posição do cursor na nota ativa.
 
-If your template folder contains only one note, Templates inserts it directly into the active note.
+Se sua pasta de modelo contiver apenas uma nota, Modelos a insere diretamente na nota ativa.
 
-## Template variables
+## Variáveis de modelo
 
-You can add dynamic information to your templates, using _template variables_. When you insert a template containing a template variable, Templates replaces it with its corresponding value.
+Você pode adicionar informações dinâmicas aos seus modelos, usando _variáveis de modelo_. Quando você insere um modelo contendo uma variável de modelo, Modelos o substitui por seu valor correspondente.
 
 | Variable    | Description                                     |
 |-------------|-------------------------------------------------|
@@ -24,13 +24,13 @@ You can add dynamic information to your templates, using _template variables_. W
 | `{{date}}`  | Today's date. **Default format:** `YYYY-MM-DD`. |
 | `{{time}}`  | Current time. **Default format:** `HH:mm`.      |
 
-Both `{{date}}` and `{{time}}` allow you to change the default format using a _format string_.
+Ambos `{{date}}` e `{{time}}` permitem que você altere o formato padrão usando _format string_.
 
-To set a format string, add a colon (`:`) followed by a string of [Moment.js format tokens](https://momentjs.com/docs/#/displaying/format/), for example `{{date:YYYY-MM-DD}}`.
+Para definir uma string de formato, adicione dois pontos (`:`) seguidos por uma string de [tokens de formato Moment.js](https://momentjs.com/docs/#/displaying/format/), por exemplo `{{ data:AAAA-MM-DD}}`.
 
-You can use `{{date}}` and `{{time}}` interchangeably with format strings, for example `{{time:YYYY-MM-DD}}`.
+Você pode usar `{{date}}` e `{{time}}` intercambiavelmente com strings de formato, por exemplo `{{time:YYYY-MM-DD}}`.
 
-You can change the default date and time formats under **Settings > Templates > Date format** and **Settings > Templates > Time format**.
+Você pode alterar os formatos padrão de data e hora em **Configurações > Modelos > Formato de data** e **Configurações > Modelos > Formato de hora**.
 
-> [!tip]
-> You can also use the `{{date}}` and `{{time}}` template variables in the [[Notas diárias]] and [[Criador de notas únicas]] plugins.
+> [!tip] Dica
+> Você também pode usar as variáveis de template `{{date}}` e `{{time}}` nos plugins [[Notas abertas]] e [[Criador de notas únicas]].

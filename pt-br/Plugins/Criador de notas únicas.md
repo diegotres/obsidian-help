@@ -3,28 +3,28 @@ aliases:
 - Zettelkasten prefixer
 ---
 
-Unique note creator lets you create notes with time-based names, also known as Zettelkasten notes.
+O criador de notas exclusivo permite criar notas com nomes baseados em tempo, também conhecidas como notas Zettelkasten.
 
-For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note creator creates a note with `202401010945` as its name. If a note with the same name exists, the new note uses the next available timestamp.
+Por exemplo, se você criar uma nova nota às 09h45 de 1º de janeiro de 2024, o Criador de nota exclusivo criará uma nota com `202401010945` como nome. Se existir uma nota com o mesmo nome, a nova nota usará o próximo carimbo de data/hora disponível.
 
-## Create a unique note
+## Crie uma nota única
 
-**Ribbon:**
+**Fita:**
 
-- In the ribbon, click **Create new unique note** (overlapping sheets icon).
+- Na faixa de opções, clique em **Criar nova nota exclusiva** (ícone de planilhas sobrepostas).
 
-**Command palette:**
+**Paleta de comandos:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Paleta de comandos]].
-2. Search for the **Create new unique note** command.
-3. Press `Enter` with the command selected.
+1. Pressione `Ctrl+P` (ou `Cmd+P` no macOS) para abrir a [[Paleta de comandos]].
+2. Procure o comando **Create new unique note**.
+3. Pressione `Enter` com o comando selecionado.
 
-## Create unique notes from a template
+## Crie notas exclusivas a partir de um modelo
 
-By default, new unique notes are empty. To use another file as a template:
+Por padrão, novas notas exclusivas estão vazias. Para usar outro arquivo como modelo:
 
-- Open **Settings**.
-- In the sidebar, click **Core plugins > Unique note creator**.
-- In **Template file location**, enter the file you want to use as template.
+- Abrir configurações**.
+- Na barra lateral, clique em **Plugins principais > Criador de notas exclusivo**.
+- Em **Localização do arquivo de modelo**, insira o arquivo que deseja usar como modelo.
 
-For more information about how to write templates, refer to [[Modelos]].
+Para mais informações sobre como escrever modelos, consulte [[Modelos]].
